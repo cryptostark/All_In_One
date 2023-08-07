@@ -174,7 +174,7 @@ async def account_login(bot: Client, m: Message):
             try:
                 for data in response4:
                     class_title=(data["topic"])
-                    class_url=data["url"].replace("d1d34p8vz63oiq", "d3nzo6itypaz07").replace("mpd", "m3u8").strip()
+                    class_url=data["url"].replace("d1d34p8vz63oiq", "d26g5bnklkwsh4").replace("mpd", "m3u8").strip()
                 #cc=f"```{data['topic']}```:```{data['url']}\n```"
                     cc = f"{data['topic']}:{data['url']}"
                     with open(f"{batch}.txt", 'a') as f:
@@ -187,7 +187,7 @@ async def account_login(bot: Client, m: Message):
             try:
                 for data in response5:
                     class_title=(data["topic"])
-                    class_url=data["url"].replace("d1d34p8vz63oiq", "d3nzo6itypaz07").replace("mpd", "m3u8").strip()
+                    class_url=data["url"].replace("d1d34p8vz63oiq", "d26g5bnklkwsh4").replace("mpd", "m3u8").strip()
                 #cc=f"```{data['topic']}```:```{data['url']}\n```"
                     cc = f"{data['topic']}:{data['url']}"
                     with open(f"{batch}.txt", 'a') as f:
@@ -200,7 +200,7 @@ async def account_login(bot: Client, m: Message):
             try:
                 for data in response6:
                     class_title=(data["topic"])
-                    class_url=data["url"].replace("d1d34p8vz63oiq", "d3nzo6itypaz07").replace("mpd", "m3u8").strip()
+                    class_url=data["url"].replace("d1d34p8vz63oiq", "d26g5bnklkwsh4").replace("mpd", "m3u8").strip()
                 #cc=f"```{data['topic']}```:```{data['url']}\n```"
                     cc = f"{data['topic']}:{data['url']}"
                     with open(f"{batch}.txt", 'a') as f:
